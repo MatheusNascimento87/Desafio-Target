@@ -40,12 +40,10 @@ public class Fibonacci {
 				}
 				flag = true;
 			} catch (Exception e) {
-				System.out.println(
-						"Valor inválido, a sequência de fibonacci só aceita números inteiros, tente novamente");
+				System.out.println("Valor inválido, a sequência de fibonacci só aceita números inteiros, tente novamente");
 				scan.next();
 			}
 		}
 		scan.close();
 	}
-
 }
